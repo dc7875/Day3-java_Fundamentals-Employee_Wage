@@ -14,7 +14,7 @@ public class DailyEmpWage {
             empHrs = 0;
 
         empWage = empHrs * EMPLOYEE_RATE_PER_HOUR;
-        System.out.println("Employee Wage " + empWage);
+        System.out.println("Employee Wage: $" + empWage + " USD");
 
     }
 }
